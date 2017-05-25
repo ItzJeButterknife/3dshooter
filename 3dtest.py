@@ -68,7 +68,7 @@ def Crystal(vertices):
     glBegin(GL_QUADS)
     for surface in surfaces:
         for vertex in surface:
-            glColor3fv((random.randrange(-1,2),1,1))
+            glColor3fv((1,1,1))
             glVertex3fv(vertices[vertex])
     glEnd()
 
